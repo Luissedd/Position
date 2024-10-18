@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: orange;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    line-height: 50px;
+}
+
+#container{
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.caja{
+    display: block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+#caja1{
+    background-color: red;
+}
+#caja2{
+    background-color: aqua;
+}
+
+#caja3{
+    background-color: yellow;
+}
+
+#caja4{
+    background-color: green;
+}
+
+#caja5{
+    background-color: purple;
+}
+
+#caja6{
+    background-color: blue;
+}
+
+/*Posicionamiento*/
+#container{
+    background-color: black;
+    position: relative;
+}
+#caja1{
+    position: relative;
+    z-index: -1;
+}
